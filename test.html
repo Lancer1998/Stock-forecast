@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript">
+        function exec1(command) {
+            var ws = new ActiveXObject("WScript.Shell");
+            ws.run(command);
+        }
+
+        // function showImg1(){
+        //     document.getElementById('img11').style.display='block';
+        // }
+    </script>
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+ 
+<body>
+    <!-- 按键开始执行python程序 -->
+    <div id="program">
+        <input type="button" value="运行MSFT-Python分析" onclick="exec1('python MSFT_web.py')">
+    </div>
+
+    <!-- 读取python运行结果 -->
+    <!-- 链接的 target 属性必须引用 iframe 的 name 属性 -->
+    <div id="Attributes">
+        <p><a href="msft1.txt" target="Attributes">属性数据</a></p>
+        <iframe name="Attributes" width="550" height="300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="basis1">
+        <p><a href="msft2.txt" target="basis1">法人行为调整之后的闭市价格(最大、最小、现在)</a></p>
+        <iframe name="basis1" width="135" height="160" scrolling="no" frameborder="3"></iframe>
+    </div>
+<!--     <div><input type="button" id="button1" value="" onclick="showImg1()"></div> -->
+    <div id="img1"><img src="./img/m2.png"></div>
+
+    <div id="basis2">
+        <p><a href="msft3.txt" target="basis2">日变化(最大、最小、现在)</a></p>
+        <iframe name="basis2" width="135" height="160" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="basis3">
+        <p><a href="msft4.txt" target="basis3">人为交易数量(最大、最小、现在)</a></p>
+        <iframe name="basis3" width="135" height="160" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img2"><img src="./img/m34.png"></div>
+
+
+    <div id="profit1">
+        <p><a href="msft5.txt" target="profit1">100美元利润</a></p>
+        <iframe name="profit1" width="666" height="25" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img3"><img src="./img/m5.png"></div>
+    <div id="profit2">
+        <p><a href="msft6.txt" target="profit2">100美元损失</a></p>
+        <iframe name="profit2" width="666" height="25" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img4"><img src="./img/m6.png"></div>
+    <div id="word">不同时间尺度的趋势和模式</div>
+    <div id="img5"><img src="./img/mt1.png"></div>
+    <div id="img6"><img src="./img/mt2.png"></div>
+    <div id="time">
+        <p><a href="msft7.txt" target="time">时间序列</a></p>
+        <iframe name="time" width="270" height="110" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img7"><img src="./img/m7.png"></div>
+    <div id="prediction">
+        <p><a href="msft8.txt" target="prediction">30天预测</a></p>
+        <iframe name="prediction" width="400" height="30" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img8"><img src="./img/m8.png"></div>
+</body>
+ 
+</html>
