@@ -1,0 +1,1 @@
+('Date', 'AMZN', Timestamp('2017-03-27 00:00:00'), Timestamp('2018-03-27 00:00:00'), 1000, 'the model predicted an increase, the price increased', 61.18421052631579, 'the model predicted a  decrease, the price decreased', 47.91666666666667, 'The total profit using the Prophet model', 571679.9999999998, 'The Buy and Hold strategy profit', 648739.9999999999)

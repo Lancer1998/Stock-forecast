@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript">
+        function exec1(command) {
+            var ws = new ActiveXObject("WScript.Shell");
+            ws.run(command);
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="amzn.css">
+</head>
+ 
+<body>
+    <!-- 按键开始执行python程序 -->
+    <div id="program">
+        <input type="button" value="运行AMZN-Python分析" onclick="exec1('python AMZN_web.py')">
+    </div>
+
+    <!-- 读取python运行结果 -->
+    <!-- 链接的 target 属性必须引用 iframe 的 name 属性 -->
+    <div id="Attributes">
+        <p><a href="amzn1.txt" target="Attributes">属性数据</a></p>
+        <iframe name="Attributes" width="550" height="300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="basis1">
+        <p><a href="amzn2.txt" target="basis1">法人行为调整之后的闭市价格(最大、最小、现在)</a></p>
+        <iframe name="basis1" width="135" height="160" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img1"><img src="./img/a2.png"></div>
+
+    <div id="basis2">
+        <p><a href="amzn3.txt" target="basis2">日变化(最大、最小、现在)</a></p>
+        <iframe name="basis2" width="135" height="160" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img2"><img src="./img/a3.png"></div>
+
+    <div id="prediction1">
+        <p><a href="amzn4.txt" target="prediction1">第一次预测</a></p>
+        <iframe name="prediction1" width="400" height="25" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img3"><img src="./img/a4.png"></div>
+
+    <div id="evaluate1">
+        <p><a href="amzn5.txt" target="evaluate1">模型评估</a></p>
+        <iframe name="evaluate1" width="240" height="300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img4"><img src="./img/a5.png"></div>
+    <div id="evaluate2">
+        <p><a href="amzn6.txt" target="evaluate2">改进模型评估</a></p>
+        <iframe name="evaluate2" width="240" height="300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img5"><img src="./img/a6.png"></div>
+    <div id="evaluate3">
+        <p><a href="amzn7.txt" target="evaluate3">改进每周的季节性模型评估</a></p>
+        <iframe name="evaluate3" width="240" height="300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img6"><img src="./img/a7.png"></div>
+
+    <div id="daily1">
+        <p><a href="amzn8.txt" target="daily1">每日股市</a></p>
+        <iframe name="daily1" width="630" height="80" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img7"><img src="./img/a8.png"></div>
+    <div id="daily2">
+        <p><a href="amzn9.txt" target="daily2">更改时间段股市</a></p>
+        <iframe name="daily2" width="630" height="80" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img8"><img src="./img/a9.png"></div>
+    <div id="future1">
+        <p><a href="amzn10.txt" target="future1">未来10天预测（预测增长、预测下降）</a></p>
+        <iframe name="future1" width="450" height="180" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img9"><img src="./img/a10.png"></div>
+    <div id="future2">
+        <p><a href="amzn11.txt" target="future2">未来100天预测（预测增长、预测下降）</a></p>
+        <iframe name="future2" width="450" height="1300" scrolling="no" frameborder="3"></iframe>
+    </div>
+    <div id="img10"><img src="./img/a11.png"></div>
+</body>
+ 
+</html>

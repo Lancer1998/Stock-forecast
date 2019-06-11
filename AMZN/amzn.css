@@ -1,0 +1,121 @@
+#img1 img{
+	width: 650px;
+	height: 350px;
+}
+
+#basis2{
+	position: absolute;
+	left: 700px;
+	top: 395px;
+}
+
+#img2 img{
+	width: 650px;
+	height: 350px;
+}
+#img2{
+	position: absolute;
+	left: 700px;
+	top: 615px;
+}
+
+#img3 img{
+	width: 650px;
+	height: 350px;
+}
+
+#img4 img{
+	width: 650px;
+	height: 350px;
+}
+#img4{
+	position: relative;
+	left: 270px;
+	top: -330px;
+}
+
+#evaluate2{
+	position: relative;
+	top:-350px; 
+}
+
+#img5{
+	position: relative;
+	left: 270px;
+	top: -680px;
+}
+#img5 img{
+	width: 650px;
+	height: 350px;
+}
+
+#evaluate3{
+	position: relative;
+	top:-700px; 
+}
+
+#img6{
+	position: relative;
+	left: 270px;
+	top: -1030px;
+}
+#img6 img{
+	width: 650px;
+	height: 350px;
+}
+
+#daily1{
+	position: relative;
+	top: -1050px;
+}
+#img7{
+	position: relative;
+	top: -1040px;
+}
+#img7 img{
+	width: 635px;
+	height: 350px;
+}
+
+#daily2{
+	position: relative;
+	top: -1545px;
+	left: 700px;
+}
+#img8{
+	position: relative;
+	top: -1535px;
+	left: 700px;
+}
+#img8 img{
+	width: 650px;
+	height: 350px;
+}
+
+#future1{
+	position: relative;
+	top: -1545px;
+}
+#img9{
+	position: relative;
+	top: -1750px;
+	left: 500px;
+}
+#img9 img{
+	width: 700px;
+	height: 400px;
+}
+
+#future2{
+	position: relative;
+	top: -1740px;
+}
+#img10{
+	position: relative;
+	top: -3050px;
+	left: 500px;
+}
+#img10 img{
+	width: 700px;
+	height: 400px;
+}
