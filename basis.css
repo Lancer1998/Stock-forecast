@@ -1,0 +1,24 @@
+#home{
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+.first{
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style-type:none;
+	font-size: 20px;}
+
+.second{
+	list-style-type: none;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+.left{
+	position: absolute;
+	top: 48px;
+	left: 150px;
+}
